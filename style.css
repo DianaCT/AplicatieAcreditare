@@ -1,0 +1,89 @@
+body {
+    background-color: #F0F8FF;
+    background-image: url("../images/pozasite.jpg");
+    background-repeat:no-repeat;
+}
+div.container {
+    width: 400px;
+    border: 1px solid;
+    margin-top: 180px;
+    margin-left: 30px;
+}
+
+div.box {
+    width: 374px;
+    border: 3px solid black;
+    float: left;
+    padding: 10px;
+    background-color: #F0F8FF;
+    font-size: 1.4em;
+}
+form{
+    margin-left: 450px;
+}
+select {
+    font: 1.4em times new roman, sans-serif;
+    background-color: #F0F8FF;
+    padding: 2px 10px;
+    width: 400px;
+    *width: 350px;
+}
+p {
+    width: 300px;
+    height: 100px;
+    border: 1px black;
+    text-indent: 15px;
+}
+h1 {
+    font-size: 3em;
+    margin: 10px 0 5px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 10px 0 5px 0;
+    text-align: center;
+
+}
+
+
+h3 {
+    font-size: 2em;
+    margin: 10px 0 5px 0;
+    color: darkblue;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.error {
+    color: darkred;
+}
+
+ul, ol {
+    margin-left: 25px;
+}
+
+header {
+    padding: 10px;
+    min-height: 48px;
+    background-color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

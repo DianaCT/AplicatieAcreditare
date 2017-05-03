@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+    <h2>MONTHLY EXPENSES REPORT </h2>
+    <form action="expencesArchive" method="post">
+        <div class="container">
+            <div class="box" id="box1">Data:<input type="date" name="data"/><br /></div>
+            <div class="box" id="box2">Produs:<input type="text" name="produs"/><br /></div>
+            <div class="box" id="box3">Cantitate:<input type="number" name="cantitate"/><br /></div>
+            <div class="box" id="box4">Pret:<input type="number" name="pret"/><br /></div>
+                 <select name="categorie">
+                     <option value="food">Food</option>
+                     <option value="nonfood">Nonfood</option>
+                 </select>
+            <div style="clear:both;"></div>
+        </div>
+        <input type="submit" value="Submit"/>&nbsp;
+    </form>
+    <form action="expencesArchive" method="get">
+        <input type="submit" value="Afiseaza tabel"/>
+    </form>
+</body>
+</html>
+
+
